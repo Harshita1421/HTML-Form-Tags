@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form </title>
+</head>
+<body>
+    <h1>HTML Form with All Form Tags & Input Types</h1>
+    <form>
+        <fieldset>
+            <legend>Basic Inputs</legend>
+        <label for="un">Text:</label>
+        <input type="text" id="un" name="Text">
+        <br>
+        <br>
+        <label for="pwd">password:</label>
+        <input type="password" id="pwd" name="password">
+        <br>
+        <br>
+        <label>Email:</label>
+        <input type="email" name="email">
+        <br>
+        <br>
+        <label>Mobile :</label>
+        <input type="tel" name="mobile">
+        <br>
+        <br>
+        <label>Telphone:</label>
+        <input type="tel" name="mobile">
+        <br>
+        <br>
+        <label>URL:</label>
+        <input type="url">
+        <br>
+        <br>
+        <label>Search :</label>
+        <input type="hidden">
+        <input type="search">
+        <br>
+        <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Date and Time</legend>
+            <label>Date:</label>
+        <input type="date">
+        <br>
+        <br>
+        <label>Time:</label>
+        <input type="time">
+        <br>
+        <br>
+        <label>DateTime Local:</label>
+        <input type="datetime-local">
+        <br>
+        <br>
+        <label>Month:</label>
+        <input type="month">
+        <br>
+        <br>
+        <label>Week:</label>
+        <input type="week">
+        <br>
+        <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <br>
+            <legend>Selection Controls</legend>
+        <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="Male">
+      <label for="male">Male</label>
+
+      <input type="radio" id="female" name="gender" value="Female">
+      <label for="female">Female</label>
+
+      <input type="radio" id="other" name="gender" value="Other">
+      <label for="other">Other</label>
+        <br>
+        <br>
+        <label>Skills:</label>
+      <input type="checkbox" id="html" name="skills" value="HTML">
+      <label for="html">HTML</label>
+
+      <input type="checkbox" id="css" name="skills" value="CSS">
+      <label for="css">CSS</label>
+
+      <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+        <br>
+        <br>
+        <label>Range: </label>
+        <input type="range" min="1" max="5" name="rating" value="1">
+        <br>
+        <br>
+        <label>Color:</label>
+        <input type="color">
+        <br>
+        <br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <br>
+            <legend>File Upload</legend>
+            <label>Upload File:</label>
+        <input type="file" accept=".pdf,.js" name="file">
+        <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <br>
+            <legend>Comments:</legend>
+      <label for="address">Address:</label><br>
+      <textarea id="address" name="address" rows="5" cols="80"></textarea>
+       </fieldset>
+        <br>
+        <br>
+    <fieldset>
+      <legend>Select Options</legend>
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option>India</option>
+        <option>USA</option>
+        <option>UK</option>
+        <option>Canada</option>
+      </select>
+      <br>
+      <br>
+      <label for="languages">Multiple Select:</label>
+      <select id="languages" name="languages" multiple size="4">
+        <option>Python</option>
+        <option>Java</option>
+        <option>C++</option>
+        <option selected>JavaScript</option>
+      </select>
+    </fieldset>
+      <br>
+
+    <fieldset>
+      <legend>Datalist Example</legend>
+      <label for="browser">Choose Browser:</label>
+      <input list="browsers" id="browser" name="browser">
+      <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+        <option value="Safari">
+        <option value="Opera">
+      </datalist>
+    </fieldset>
+
+    <br>
+    <fieldset>
+      <legend>Progress & Meter</legend>
+      <label for="progress">Progress:</label>
+      <progress id="progress" value="70" max="100"></progress>
+      <br><br>
+      <label for="meter">Meter:</label>
+      <meter id="meter" value="60" min="0" max="100"></meter>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+      <legend>Output Example</legend>
+      <input type="number" id="num1" value="10"> +
+      <input type="number" id="num2" value="20"> =
+      <output id="result">30</output>
+    </fieldset>
+     <br>
+
+    <fieldset>
+      <legend>Buttons</legend>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+      <button type="button">Click Me</button>
+      <button type="button">Normal Button</button>
+      <button type="submit">Submit Button</button>
+    </fieldset>
+    </form>
+</body>
+</html>
